@@ -143,7 +143,7 @@ export default function Home() {
 
       {/* Hero Section */}
       <section id="about" className="max-w-6xl mx-auto px-6 py-24 text-center">
-        <h2 className="text-5xl font-extrabold mb-4">Hi, I'm <span className="text-blue-500">Liav Huli</span></h2>
+        <h2 className="text-5xl font-extrabold mb-4">I&apos;m<span className="text-blue-500">Liav Huli</span></h2>
         <p className="text-xl text-gray-300">Software Engineer & Game Developer</p>
         <p className="max-w-2xl mx-auto mt-6 text-gray-400">
           Passionate about building interactive apps, full-stack systems, and game mechanics. Focused on DevOps, scalable architecture, and seamless user experiences.
@@ -307,7 +307,7 @@ export default function Home() {
       <section id="contact" className="bg-[#161B22] py-20 text-center">
         <div className="max-w-5xl mx-auto px-6">
           <h2 className="text-4xl font-bold mb-6">Contact</h2>
-          <p className="text-lg text-gray-400 mb-6">Let’s connect! Whether it's a new project, freelance work, or collaboration, reach out below.</p>
+          <p className="text-lg text-gray-400 mb-6">Let&apos;s connect! Whether it's a new project, freelance work, or collaboration, reach out below.</p>
           <div className="flex flex-col items-center space-y-4">
             <a href="mailto:liavjulio7@gmail.com" className="flex items-center gap-2 text-blue-400 hover:underline text-lg">
               <FaEnvelope /> liavjulio7@gmail.com
