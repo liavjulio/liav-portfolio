@@ -175,7 +175,7 @@ export default function Home() {
         {/* Profile Photo */}
         <div className="mt-12 flex justify-center">
           <Image
-            src="/public/Profile.jpeg"
+            src="../public/Profile.jpeg"
             alt="Liav Huli"
             width={160}
             height={160}
