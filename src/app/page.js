@@ -221,15 +221,15 @@ export default function Home() {
         <FaReact className="text-blue-400 text-xl" />
       </div>
       <h3 className="mt-4 text-xl font-semibold text-white text-center">Frontend Development</h3>
-      <div className="mt-6 grid grid-cols-4 gap-4 justify-items-center text-2xl text-gray-300">
-        <span title="HTML5" className="inline-block cursor-pointer"><SiHtml5 /></span>
-        <span title="CSS3" className="inline-block cursor-pointer"><SiCss3 /></span>
-        <span title="JavaScript" className="inline-block cursor-pointer"><SiJavascript /></span>
-        <span title="TypeScript" className="inline-block cursor-pointer"><SiTypescript /></span>
+      <div className="mt-6 grid grid-cols-4 gap-4 justify-items-center text-2xl">
+        <span title="HTML5" className="inline-block cursor-pointer text-orange-500"><SiHtml5 /></span>
+        <span title="CSS3" className="inline-block cursor-pointer text-blue-500"><SiCss3 /></span>
+        <span title="JavaScript" className="inline-block cursor-pointer text-yellow-400"><SiJavascript /></span>
+        <span title="TypeScript" className="inline-block cursor-pointer text-sky-400"><SiTypescript /></span>
       </div>
-      <div className="mt-4 grid grid-cols-2 gap-4 justify-items-center text-2xl text-gray-300">
-        <span title="React" className="inline-block cursor-pointer"><FaReact /></span>
-        <span title="Tailwind CSS" className="inline-block cursor-pointer"><SiTailwindcss /></span>
+      <div className="mt-4 grid grid-cols-2 gap-4 justify-items-center text-2xl">
+        <span title="React" className="inline-block cursor-pointer text-cyan-400"><FaReact /></span>
+        <span title="Tailwind CSS" className="inline-block cursor-pointer text-teal-400"><SiTailwindcss /></span>
       </div>
     </div>
 
@@ -239,15 +239,15 @@ export default function Home() {
         <FaNodeJs className="text-green-400 text-xl" />
       </div>
       <h3 className="mt-4 text-xl font-semibold text-white text-center">Backend Development</h3>
-      <div className="mt-6 grid grid-cols-4 gap-4 justify-items-center text-2xl text-gray-300">
-        <span title="Node.js" className="inline-block cursor-pointer"><FaNodeJs /></span>
-        <span title="PostgreSQL" className="inline-block cursor-pointer"><SiPostgresql /></span>
-        <span title="MongoDB" className="inline-block cursor-pointer"><SiMongodb /></span>
-        <span title="Python" className="inline-block cursor-pointer"><FaPython /></span>
+      <div className="mt-6 grid grid-cols-4 gap-4 justify-items-center text-2xl">
+        <span title="Node.js" className="inline-block cursor-pointer text-green-500"><FaNodeJs /></span>
+        <span title="PostgreSQL" className="inline-block cursor-pointer text-blue-700"><SiPostgresql /></span>
+        <span title="MongoDB" className="inline-block cursor-pointer text-green-600"><SiMongodb /></span>
+        <span title="Python" className="inline-block cursor-pointer text-blue-400"><FaPython /></span>
       </div>
-      <div className="mt-4 grid grid-cols-2 gap-4 justify-items-center text-2xl text-gray-300">
-        <span title="Java" className="inline-block cursor-pointer"><FaJava /></span>
-        <span title="Kubernetes" className="inline-block cursor-pointer"><SiKubernetes /></span>
+      <div className="mt-4 grid grid-cols-2 gap-4 justify-items-center text-2xl">
+        <span title="Java" className="inline-block cursor-pointer text-red-600"><FaJava /></span>
+        <span title="Kubernetes" className="inline-block cursor-pointer text-blue-300"><SiKubernetes /></span>
       </div>
     </div>
 
@@ -257,14 +257,14 @@ export default function Home() {
         <FaDocker className="text-blue-500 text-xl" />
       </div>
       <h3 className="mt-4 text-xl font-semibold text-white text-center">DevOps & Cloud</h3>
-      <div className="mt-6 grid grid-cols-3 gap-4 justify-items-center text-2xl text-gray-300">
-        <span title="Docker" className="inline-block cursor-pointer"><FaDocker /></span>
-        <span title="Kubernetes" className="inline-block cursor-pointer"><SiKubernetes /></span>
-        <span title="AWS" className="inline-block cursor-pointer"><FaAws /></span>
+      <div className="mt-6 grid grid-cols-3 gap-4 justify-items-center text-2xl">
+        <span title="Docker" className="inline-block cursor-pointer text-blue-600"><FaDocker /></span>
+        <span title="Kubernetes" className="inline-block cursor-pointer text-blue-300"><SiKubernetes /></span>
+        <span title="AWS" className="inline-block cursor-pointer text-orange-400"><FaAws /></span>
       </div>
-      <div className="mt-4 grid grid-cols-2 gap-4 justify-items-center text-2xl text-gray-300">
-        <span title="Tailwind CSS" className="inline-block cursor-pointer"><SiTailwindcss /></span>
-        <span title="GitHubActions" className="inline-block cursor-pointer"><FaGithub /></span>
+      <div className="mt-4 grid grid-cols-2 gap-4 justify-items-center text-2xl">
+        <span title="Tailwind CSS" className="inline-block cursor-pointer text-teal-400"><SiTailwindcss /></span>
+        <span title="GitHub Actions" className="inline-block cursor-pointer text-gray-500"><FaGithub /></span>
       </div>
     </div>
   </div>
