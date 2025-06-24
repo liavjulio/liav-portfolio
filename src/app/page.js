@@ -171,6 +171,18 @@ export default function Home() {
         <h2 className="text-5xl font-extrabold mb-4">
           I&apos;m<span className="text-blue-500"> Liav Huli</span>
         </h2>
+        {/* Profile Photo */}
+        <div className="mt-12 flex justify-center">
+          <div className="relative w-40 h-40 rounded-full overflow-hidden border-4 border-blue-500">
+            <Image
+              src="/images/Profile.jpeg"
+              alt="Liav Huli"
+              fill
+              sizes="160px"
+              className="object-cover"
+            />
+          </div>
+        </div>
         <p className="text-xl text-gray-300">Junior Software Engineer</p>
         <p className="text-lg text-blue-400 mt-2">Made In IMPACT!</p>
         <p className="max-w-2xl mx-auto mt-6 text-gray-400">
