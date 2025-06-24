@@ -3,6 +3,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import { useState } from 'react';
+import { FaCode, FaServer, FaCloud } from 'react-icons/fa';
 import {
   FaAws,
   FaDocker,
@@ -218,7 +219,7 @@ export default function Home() {
     {/* Frontend Card */}
     <div className="relative group p-6 rounded-2xl bg-[#1f2430]/60 backdrop-blur-md shadow-lg transform transition duration-300 hover:scale-105">
       <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-[#212836] p-2 rounded-full shadow-md">
-        <FaReact className="text-blue-400 text-xl" />
+        <FaCode className="text-blue-400 text-xl" />
       </div>
       <h3 className="mt-4 text-xl font-semibold text-white text-center">Frontend Development</h3>
       <div className="mt-6 grid grid-cols-4 gap-4 justify-items-center text-2xl">
@@ -236,7 +237,7 @@ export default function Home() {
     {/* Backend Card */}
     <div className="relative group p-6 rounded-2xl bg-[#243041]/60 backdrop-blur-md shadow-lg transform transition duration-300 hover:scale-105">
       <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-[#1e2a38] p-2 rounded-full shadow-md">
-        <FaNodeJs className="text-green-400 text-xl" />
+        <FaServer className="text-green-400 text-xl" />
       </div>
       <h3 className="mt-4 text-xl font-semibold text-white text-center">Backend Development</h3>
       <div className="mt-6 grid grid-cols-4 gap-4 justify-items-center text-2xl">
@@ -254,7 +255,7 @@ export default function Home() {
     {/* DevOps Card */}
     <div className="relative group p-6 rounded-2xl bg-[#1d2b36]/60 backdrop-blur-md shadow-lg transform transition duration-300 hover:scale-105">
       <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-[#21303a] p-2 rounded-full shadow-md">
-        <FaDocker className="text-blue-500 text-xl" />
+        <FaCloud className="text-blue-500 text-xl" />
       </div>
       <h3 className="mt-4 text-xl font-semibold text-white text-center">DevOps & Cloud</h3>
       <div className="mt-6 grid grid-cols-3 gap-4 justify-items-center text-2xl">
