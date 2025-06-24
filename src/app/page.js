@@ -14,6 +14,7 @@ import {
   FaNodeJs,
   FaPython,
   FaReact,
+  FaChevronDown,
 } from "react-icons/fa";
 import {
   SiCss3,
