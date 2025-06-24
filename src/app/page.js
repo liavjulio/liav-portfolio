@@ -95,6 +95,12 @@ export default function Home() {
       period: '2020 – Present',
       description: 'Coordinate and guide reserve platoon operations, Manage training exercises, and ensure operational readiness.'
     },
+    {
+      title: 'Volunteer Mentor',
+      company: 'FIDF IMPACT!',
+      period: '2022 – Present',
+      description: 'Mentored disadvantaged youth, providing guidance on personal development and IDF readiness.'
+    }
   ];
 
   const educationData = [
@@ -124,7 +130,7 @@ export default function Home() {
   return (
     <div className="bg-[#0D1117] text-white font-sans scroll-smooth">
       <Head>
-        <title>Liav Huli | Software & Game Dev Portfolio</title>
+        <title>Liav Huli | Software Portfolio</title>
       </Head>
 
       {/* Navigation */}
@@ -144,10 +150,11 @@ export default function Home() {
 
       {/* Hero Section */}
       <section id="about" className="max-w-6xl mx-auto px-6 py-24 text-center">
-        <h2 className="text-5xl font-extrabold mb-4">I&apos;m<span className="text-blue-500">Liav Huli</span></h2>
-        <p className="text-xl text-gray-300">Software Engineer & Game Developer</p>
+        <h2 className="text-5xl font-extrabold mb-4">I&apos;m<span className="text-blue-500"> Liav Huli</span></h2>
+        <p className="text-xl text-gray-300">Junior Software Engineer</p>
+        <p className="text-lg text-blue-400 mt-2">Made In IMPACT!</p>
         <p className="max-w-2xl mx-auto mt-6 text-gray-400">
-          Passionate about building interactive apps, full-stack systems, and game mechanics. Focused on DevOps, scalable architecture, and seamless user experiences.
+          Passionate about building interactive apps, full-stack systems, and game mechanics. Focused on DevOps, scalable architecture, and seamless user experiences. 
         </p>
 
         <div className="mt-8 flex justify-center gap-4 flex-wrap">
