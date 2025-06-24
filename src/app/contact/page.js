@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { FaEnvelope, FaLinkedin } from 'react-icons/fa';
 
 export default function Contact() {

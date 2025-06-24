@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 export default function About() {
   return (
     <main className="max-w-4xl mx-auto p-8 bg-white shadow-md rounded-xl mt-10">
