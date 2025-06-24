@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 "use client";
-import Image from 'next/image';
+import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
 import { useState } from "react";
@@ -174,15 +174,13 @@ export default function Home() {
         </h2>
         {/* Profile Photo */}
         <div className="mt-12 flex justify-center">
-          <div className="relative w-40 h-40 rounded-full overflow-hidden border-4 border-blue-500">
-            <Image
-              src="/public/Profile.jpeg"
-              alt="Liav Huli"
-              fill
-              sizes="160px"
-              className="object-cover"
-            />
-          </div>
+          <Image
+            src="/public/Profile.jpeg"
+            alt="Liav Huli"
+            width={160}
+            height={160}
+            className="rounded-full border-4 border-blue-500 object-cover"
+          />
         </div>
         <p className="text-xl text-gray-300">Junior Software Engineer</p>
         <p className="text-lg text-blue-400 mt-2">Made In IMPACT!</p>
