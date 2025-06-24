@@ -176,7 +176,7 @@ export default function Home() {
         <div className="mt-12 flex justify-center">
           <div className="relative w-40 h-40 rounded-full overflow-hidden border-4 border-blue-500">
             <Image
-              src="/images/Profile.jpeg"
+              src="/public/Profile.jpeg"
               alt="Liav Huli"
               fill
               sizes="160px"
