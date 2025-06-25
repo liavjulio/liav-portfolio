@@ -210,10 +210,12 @@ export default function Home() {
             View Projects
           </Link>
         </div>
-
-        <div className="mt-12 animate-bounce">
-          <FaChevronDown className="text-gray-500 text-2xl mx-auto" />
-        </div>
+        <a
+          href="#projects"
+          className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce text-gray-500 hover:text-gray-300 transition"
+        >
+          <FaChevronDown className="text-3xl" />
+        </a>
       </section>
 
       {/* Projects Section */}
