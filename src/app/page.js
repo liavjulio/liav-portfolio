@@ -217,7 +217,7 @@ export default function Home() {
               .getElementById("projects")
               .scrollIntoView({ behavior: "smooth" });
           }}
-          className="absolute bottom-4 left-1/2 transform -translate-x-1/2 animate-bounce text-gray-500 hover:text-gray-300 transition"
+          className="absolute bottom-6 left-1/2 transform -translate-x-1/2 animate-bounce text-gray-500 hover:text-gray-300 transition"
         >
           <FaChevronDown className="text-3xl" />
         </button>
