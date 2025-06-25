@@ -141,7 +141,7 @@ export default function Home() {
       </Head>
 
       {/* Navigation */}
-      <nav className="w-full sticky top-0 z-50 bg-[#0D1117] border-b border-gray-800 py-4">
+      <nav className="w-full sticky top-0 z-50 bg-gray-900/60 backdrop-blur-sm border-b border-gray-800 py-4">
         <div className="max-w-6xl mx-auto px-6 flex justify-between items-center">
           <h1 className="text-xl font-bold">Liav Huli</h1>
           <div className="space-x-6 text-gray-300 text-sm">
